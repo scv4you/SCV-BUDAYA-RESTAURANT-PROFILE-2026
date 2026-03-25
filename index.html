@@ -3,18 +3,25 @@
 <head>
   <title>SCV Budaya Restaurant Profile</title>
   <style>
-    html, body {
+    body, html {
       margin: 0;
+      padding: 0;
       height: 100%;
+      overflow: hidden;
     }
-    iframe {
+    #pdf-container {
       width: 100%;
-      height: 100%;
-      border: none;
+      height: 100vh;
     }
   </style>
 </head>
 <body>
-  <iframe src="scv-budaya-profile-2026.pdf"></iframe>
+
+  <object data="scv-budaya-profile-2026.pdf" type="application/pdf" width="100%" height="100%">
+    <p>It appears your browser doesn't support embedded PDFs. 
+       <a href="scv-budaya-profile-2026.pdf">Click here to download the PDF.</a>
+    </p>
+  </object>
+
 </body>
 </html>
